@@ -2,10 +2,30 @@
 <html>
 <head>
 	<title></title>
+	<link href="CSS/styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 
-
+<div class="wrapper" align="center">
+<div class="header">
+          <div class="navbar">
+            <div class= "titlelogo"></div>
+            <div class="searchbar" align="right">
+              <form action="">
+                <input type="text" width="" placeholder="enter  the search text here">
+                <input type="submit" value="Click here to Search">
+              </form>
+              <a href="search.php">Advanced Search</a>
+            </div>
+          	<ul class="navlist">
+              <li><a href="index.php">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Photo collection</a></li>
+              <li><a href="#">Learn More</a></li>
+              <li><a href="#">Contact us</a></li>
+            </ul>
+          </div>
+        </div>
 <form>
 	<label>Full Text Search</label><input type="text" placeholder="Enter Search Term"><br>
 	<fieldset>
@@ -31,8 +51,15 @@
 	</fieldset>
 	<input type="submit" value="go">
 </form>
-
-
-
+<footer>    	
+	<div class="footer-notes row">
+    	<p align="right">
+        	<a>University of Texas at Arlington</a><br>
+           	<a>Special Collections</a><br>
+            <a>702 Planetarium Place, Arlington, TX 76019. 8172723000 </a>
+        </p>
+    </div>
+</footer>
+</div>
 </body>
 </html>
